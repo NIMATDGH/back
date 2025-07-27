@@ -1,0 +1,41 @@
+# Environment Variables
+# Never commit your secrets file!
+.env
+
+
+# Virtual Environment
+# This folder is huge and specific to your machine.
+venv/
+.venv/
+env/
+
+
+# Django & Python
+# Ignore the local development database.
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore collected static files and user-uploaded media.
+staticfiles/
+media/
+
+# Ignore Python's bytecode and cache folders.
+__pycache__/
+*.pyc
+
+
+# IDE and Editor Folders
+# These store your personal editor settings.
+.vscode/
+.idea/
+
+
+# Operating System Files
+# Ignore system-specific metadata files.
+.DS_Store
+Thumbs.db
+
+
+# Log files
+# Log files can get large and contain sensitive info.
+*.log
