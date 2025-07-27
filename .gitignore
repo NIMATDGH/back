@@ -1,7 +1,7 @@
 # Environment Variables
-# Never commit your secrets file!
+# Never commit your secrets files!
 .env
-
+.env.*
 
 # Virtual Environment
 # This folder is huge and specific to your machine.
@@ -22,7 +22,7 @@ media/
 # Ignore Python's bytecode and cache folders.
 __pycache__/
 *.pyc
-
+*.pyo
 
 # IDE and Editor Folders
 # These store your personal editor settings.
