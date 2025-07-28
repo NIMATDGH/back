@@ -1,10 +1,11 @@
 # Environment Variables
 # Never commit your secrets files!
-.env
-.env.*
+.env.dev
 
-# Virtual Environment
-# This folder is huge and specific to your machine.
+#i dont know why i just dont delete this
+test.py
+
+
 venv/
 .venv/
 env/
